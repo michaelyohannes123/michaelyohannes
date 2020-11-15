@@ -13,9 +13,9 @@ function see_idea(choice){
     let idea_section2 = '';
     if(choice == 1){
         idea_name = 'Unbiased News Feed App';
-        idea_image_1 = '/img/news_image_1.png';
-        idea_image_2 = '/img/news_image_2.png';
-        idea_image_3 = '/img/news_idea.jpg';
+        idea_image_1 = 'news_image_1.png';
+        idea_image_2 = 'news_image_2.png';
+        idea_image_3 = 'news_idea.jpg';
         idea_info = 'This idea is a bit less fleshed out than the tour guide app idea in terms '
             + 'of actual implementation and functionalities. I also personally think this idea '
             + 'will be more complicated to create, due to machine learning complexities and '
@@ -47,9 +47,9 @@ function see_idea(choice){
     }
     if(choice == 2){
         idea_name = 'Realtime Tour Guide App';
-        idea_image_1 = '/img/tour_image_1.png';
-        idea_image_2 = '/img/tour_image_2.png';
-        idea_image_3 = '/img/tour_idea.png';
+        idea_image_1 = 'tour_image_1.png';
+        idea_image_2 = 'tour_image_2.png';
+        idea_image_3 = 'tour_idea.png';
         idea_info = 'This idea is a mobile application that will virtually track notable locations '
             + 'near the user and provide information to them regarding the locations, in a real-time manner.';
         idea_section1_title = 'App Concept';
