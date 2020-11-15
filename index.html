@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <title>Index</title>
+  <meta charset='UTF-8'> 
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+  <meta name='Set-Cookie' content='HttpOnly;Secure;SameSite=None'/>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="index.js"></script>  
+  <body>
+    <h1 id="site_title" class="fade-in" onclick="go_home()">
+        <span>W</span><span>E</span><span>L</span><span>C</span><span>O</span><span>M</span><span>E</span><span>!</span>
+    </h1>
+    <div id="center_div" class="fade-in">
+        <img src="/img/me.jpg" alt="image of me" width="10%" height="10%" style="border-radius: 5px; border: 2px solid #45b122;">
+        <br>
+        <p>Hello! My name is Michael Yohannes.</p>
+        <h2>About Me</h2>
+        <p>
+            I've recently taken interest in learning more about the emerging field of spatial data
+            science, where you assess spatial data through computer science techniques like machine
+            learning and data science. Through research, personal projects
+            (<a href="https://emovo.github.io/" style="color: #ebc9c9ec;" target="_blank">here</a>
+            are two of them), and internships, I've often tried to visualize spatial data for the users
+            in an easily accessible manner, whether on a phone or a website. Within the realm of
+            computer science, I attained experience in Android mobile development, web development
+            and artificial intelligence. My general academic interests aside from CS and GIS are
+            politics and history. 
+        </p>
+        <h2>Project Ideas</h2>
+        <p>I came up with two ideas. One is a realtime tour guide mobile app, and the other is an unbiased newsfeed mobile app.</p>
+        <p>Click on the images to learn more.</p>
+        <div class="ideas">
+        <div class="container">
+            <img src="/img/news_idea.jpg" alt="News Idea" class="image">
+            <div class="middle">
+                <button class="select" onclick="see_idea(1)">See More Info</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="/img/tour_idea.png" alt="Tour guide app" class="image">
+            <div class="middle">
+                <button class="select" onclick="see_idea(2)">See More Info</button>
+            </div>
+        </div>
+        </div>
+        <button id="back" style="display: none;" class="select" onclick="to_me(1)" style="width:30%; height: 30%;">Back to about me</button>
+        <br>
+        <p>That's about it! Email me at <a href="mailto:myohannes@uchicago.edu" style="color: #ebc9c9ec;">myohannes@uchicago.edu</a> or find me on Facebook if you're interested in collaborating.</p>
+        <br>
+    </div>
+
+    <div id="center_div_idea" class="fade-in" style="display: none;">
+        <h2 id="idea_name"></h2>
+        <p id="idea_info"></p>
+        <h2 id="idea_section1_title"></h2>
+        <p id="idea_section1"></p>
+        <h2 id="idea_section2_title"></h2>
+        <p id="idea_section2"></p>
+        <br>
+        <div class="ideas">
+            <div class="container_idea">
+                <img id="idea_image_1" src="/img/news_idea.jpg" alt="" class="image">
+            </div>
+            <div class="container_idea">
+                <img id="idea_image_2" src="/img/news_idea.jpg" alt="" class="image">
+            </div>
+            <div class="container_idea">
+                <img id="idea_image_3" src="/img/tour_idea.png" alt="" class="image">
+            </div>
+        </div>
+        <br>
+        <div class="container_idea">
+            <button id="back" class="select" onclick="to_me(1)" style="background-color: transparent;">Back to about me</button>
+        </div>
+        <br>
+    </div>
+    <br>
+  </body>
+</html>
